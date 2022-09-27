@@ -1,0 +1,62 @@
+.destination {
+  h5 {
+    font-family: Barlow Condensed;
+    text-align: center;
+    color: var(--white-color);
+    margin: 1rem 0;
+
+    span {
+      color: var(--gray-color);
+      opacity: 0.6;
+    }
+  }
+
+  .destination-description {
+    width: 50%;
+    .destination-links {
+      align-items: center;
+      justify-content: start;
+      display: flex;
+      gap: 1rem;
+
+      a {
+        font-size: 1.7rem;
+        color: var(--gray-color);
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+
+        &.active {
+          color: var(--white-color);
+          border-bottom: 2px solid var(--white-color);
+        }
+        &:hover {
+          border-bottom: 2px solid #ffffff52;
+        }
+      }
+    }
+  }
+
+  .disc {
+    border-bottom: 2px solid #383b4b;
+
+    p {
+      color: var(--gray-color);
+      font-size: 1.3rem;
+      margin: 1rem 0;
+      line-height: 1.5;
+      width: 70%;
+    }
+  }
+
+  .destination-details {
+    .col {
+      margin: 1rem 0;
+      span {
+        display: inline-block;
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+        color: var(--gray-color);
+      }
+    }
+  }
+}
